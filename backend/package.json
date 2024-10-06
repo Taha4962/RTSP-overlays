@@ -1,0 +1,22 @@
+{
+  "name": "sever",
+  "version": "1.0.0",
+  "description": "The backend for the CRUD api and to store the data in the mongodb.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodeJs"
+  ],
+  "author": "TAHA KHAN",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
